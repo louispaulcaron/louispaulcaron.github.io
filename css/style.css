@@ -1097,14 +1097,14 @@ figure.dotted-bg {
   margin-bottom: 30px; }
 
 .contact-info-v1 .contact-info-label {
-  font-size: 11px;
+  font-size: 50px;
   letter-spacing: .1rem;
-  font-weight: 900;
+  font-weight: 80;
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.5); }
 
 .contact-info-v1 .contact-info-val {
-    font-weight: 900;
+    font-weight: 80;
     font-family: "Sarpanch", sans-serif;
     color: #ff9cf8; }
 
