@@ -8,6 +8,8 @@
 * Facebook: https://web.facebook.com/Untree.co/
 */
 @import url("https://fonts.googleapis.com/css?family=Arimo:400|Raleway:300,400,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Sarpanch:wght@900&display=swap');
+
 body {
   font-family: "Roboto", sans-serif;
   color: #fff;
@@ -22,7 +24,7 @@ body {
     right: 0;
     bottom: 0;
     top: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: fff;
     visibility: hidden;
     opacity: 0;
     -webkit-transition: .3s all ease;
@@ -66,7 +68,7 @@ a {
 .unslate_co--footer {
   position: fixed !important;
   width: 100%;
-  background-color: #144a15;
+  background-color: #001960;
   color: #fff;
   left: 0;
   right: 0;
@@ -169,8 +171,8 @@ a {
       .unslate_co--site-nav .site-nav-ul > li > a, .unslate_co--site-nav .site-nav-ul-none-onepage > li > a {
         padding: 10px 7px;
         display: block;
-        color: #495057;
-        font-size: 14px;
+        color: #fff;
+        font-size: 18px;
         position: relative; }
         .unslate_co--site-nav .site-nav-ul > li > a:before, .unslate_co--site-nav .site-nav-ul-none-onepage > li > a:before {
           left: 7px;
@@ -191,7 +193,7 @@ a {
         .unslate_co--site-nav .site-nav-ul > li > a.active, .unslate_co--site-nav .site-nav-ul-none-onepage > li > a.active {
           position: relative; }
           .unslate_co--site-nav .site-nav-ul > li > a.active:before, .unslate_co--site-nav .site-nav-ul-none-onepage > li > a.active:before {
-            color: #144a15;
+            color: #ffff;
             width: calc(100% - 14px); }
       .unslate_co--site-nav .site-nav-ul > li.has-children, .unslate_co--site-nav .site-nav-ul-none-onepage > li.has-children {
         position: relative; }
@@ -229,7 +231,7 @@ a {
               color: gray; }
               .unslate_co--site-nav .site-nav-ul > li.has-children > .dropdown > li a:hover, .unslate_co--site-nav .site-nav-ul > li.has-children > ul > li a:hover, .unslate_co--site-nav .site-nav-ul-none-onepage > li.has-children > .dropdown > li a:hover, .unslate_co--site-nav .site-nav-ul-none-onepage > li.has-children > ul > li a:hover {
                 color: #000;
-                background: #f9f9f9;
+                background: #00000;
                 padding-left: 30px; }
             .unslate_co--site-nav .site-nav-ul > li.has-children > .dropdown > li.has-children, .unslate_co--site-nav .site-nav-ul > li.has-children > ul > li.has-children, .unslate_co--site-nav .site-nav-ul-none-onepage > li.has-children > .dropdown > li.has-children, .unslate_co--site-nav .site-nav-ul-none-onepage > li.has-children > ul > li.has-children {
               position: relative; }
@@ -392,15 +394,15 @@ a {
         display: inline-block; }
         .unslate_co--site-nav.scrolled .site-nav-ul > li > a, .unslate_co--site-nav.scrolled .site-nav-ul-none-onepage > li > a {
           display: block;
-          color: #000; }
+          color: #ffff; }
           .unslate_co--site-nav.scrolled .site-nav-ul > li > a:hover, .unslate_co--site-nav.scrolled .site-nav-ul-none-onepage > li > a:hover {
             color: #144a15; }
           .unslate_co--site-nav.scrolled .site-nav-ul > li > a:before, .unslate_co--site-nav.scrolled .site-nav-ul-none-onepage > li > a:before {
             background: #144a15; }
           .unslate_co--site-nav.scrolled .site-nav-ul > li > a.active, .unslate_co--site-nav.scrolled .site-nav-ul-none-onepage > li > a.active {
-            color: #144a15; }
+            color: #ffff; }
             .unslate_co--site-nav.scrolled .site-nav-ul > li > a.active:before, .unslate_co--site-nav.scrolled .site-nav-ul-none-onepage > li > a.active:before {
-              background: #144a15; }
+              background:  #ff9cf8; }
     .unslate_co--site-nav.scrolled.awake {
       margin-top: 0px;
       -webkit-transition: .3s all ease-out;
@@ -521,6 +523,7 @@ a {
     top: -10px; }
 
 .cover-v1 {
+    background-color: #0000;
   background-size: cover;
   background-position: center center;
   background-repeat: repeat;
@@ -544,7 +547,7 @@ a {
       right: 0;
       bottom: 0;
       content: "";
-      background: rgba(0, 0, 0, 0.4); }
+      background: #0000; }
     .cover-v1.overlay .mbYTP_wrapper {
       z-index: -1; }
   .cover-v1 .container {
@@ -556,6 +559,7 @@ a {
   .cover-v1 .heading {
     font-size: 4rem;
     font-weight: 900;
+    font-family: "Sarpanch", sans-serif;
     color: #ff9cf8; }
     @media (max-width: 991.98px) {
       .cover-v1 .heading {
@@ -570,11 +574,11 @@ a {
   .cover-v1 .post-meta {
     font-size: 18px; }
   .cover-v1 .subheading {
-    font-size: 33px;
-    color: #495057; }
+    font-size: 28x;
+    color: #fff; }
     @media (max-width: 991.98px) {
       .cover-v1 .subheading {
-        font-size: 24px; } }
+        font-size: 22px; } }
 
 .mouse-wrap {
   position: relative;
@@ -591,7 +595,7 @@ a {
     bottom: -50px; }
   .mouse-wrap .mouse-label {
     top: 0;
-    color: #ced4da;
+    color: #fff;
     font-size: 10px;
     font-weight: 700;
     letter-spacing: .05rem;
@@ -611,7 +615,7 @@ a {
     left: 50%;
     margin-left: -12px;
     border-radius: 15px;
-    border: 2px solid #ced4da;
+    border: 2px solid #fff;
     -webkit-animation: intro 2s;
     animation: intro 2s; }
     .mouse-wrap .mouse .scroll {
@@ -620,7 +624,7 @@ a {
       height: 3px;
       margin: 6px auto;
       border-radius: 4px;
-      background: #ced4da;
+      background: #fff;
       -webkit-animation: finger 2s infinite;
       animation: finger 2s infinite; }
 
@@ -727,7 +731,7 @@ a {
       right: 0;
       bottom: 0; }
     .portfolio-item .overlay:before, .blog-item .overlay:before {
-      background: rgba(0, 0, 0, 0.5);
+      background: a(0, 0rgb, 0, 0.5);
       content: ""; }
   .portfolio-item .wrap-icon, .blog-item .wrap-icon {
     position: absolute;
@@ -740,14 +744,14 @@ a {
     left: 20px;
     right: 20px; }
     .portfolio-item .portfolio-item-content h3, .portfolio-item .portfolio-item-content p, .blog-item .portfolio-item-content h3, .blog-item .portfolio-item-content p {
-      color: #0000;
+      color: #fff;
       margin: 0;
       padding: 0; }
     .portfolio-item .portfolio-item-content h3, .blog-item .portfolio-item-content h3 {
       font-size: 18px; }
     .portfolio-item .portfolio-item-content p, .blog-item .portfolio-item-content p {
       font-size: 12px;
-      color: rgba(255, 255, 255, 0.5);
+      color: #fff;
       font-family: "Arimo", sans-serif; }
   .portfolio-item:hover .overlay, .blog-item:hover .overlay {
     opacity: 1;
@@ -835,7 +839,7 @@ a {
 
 .heading-h2 {
   font-size: 32px;
-  color: #495057;
+  color: #fff;
   font-weight: 900; }
   .heading-h2.divider:before {
     position: absolute;
@@ -844,7 +848,7 @@ a {
 .heading-h3 {
   font-size: 26px;
   font-weight: 900;
-  color: #000; }
+  color: #fff; }
 
 .lead {
   font-size: 18px;
@@ -1100,7 +1104,7 @@ figure.dotted-bg {
 
 .contact-info-v1 .contact-info-val {
   font-size: 20px;
-  color: #000; }
+  color: #fff; }
 
 .portfolio-single-inner .heading-portfolio-single-h2 {
   margin-bottom: 40px;
@@ -1123,7 +1127,7 @@ figure.dotted-bg {
   padding: 10px 10px 10px 10px;
   right: -10px;
   border: 2px solid transparent;
-  background-color: #efefef;
+  background-color: #0000;
   border-radius: 30px;
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
@@ -1158,7 +1162,7 @@ figure.dotted-bg {
     visibility: visible; }
   .unslate_co--close-portfolio:hover, .unslate_co--close-portfolio:focus {
     border-color: #dddddd;
-    background-color: #e2e2e2; }
+    background-color: #00000; }
     .unslate_co--close-portfolio:hover .close-portfolio-label, .unslate_co--close-portfolio:focus .close-portfolio-label {
       right: 20px;
       opacity: 1;
@@ -1201,7 +1205,7 @@ figure.dotted-bg {
     .unslate_co--footer .footer-site-logo a {
       font-size: 30px;
       font-weight: 900;
-      font-family: "Roboto", sans-serif;
+      font-family: "Sarpanch", sans-serif;
       color: #fff; }
       .unslate_co--footer .footer-site-logo a span {
         color: #144a15; }
@@ -1508,7 +1512,7 @@ span.error {
   height: 40px;
   position: relative;
   border-radius: 50%;
-  background: #f8f9fa; }
+  background: #0000; }
 
 .service {
   padding: 30px;
