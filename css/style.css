@@ -419,7 +419,7 @@ a {
   position: fixed;
   z-index: 1009;
   height: 100vh;
-  background: #ff9cf8;
+  background: #0000;
   width: 280px;
   overflow: auto;
   padding-top: 30px;
@@ -524,7 +524,7 @@ a {
     top: -10px; }
 
 .cover-v1 {
-   background-image: url("https://media2.giphy.com/media/26wdlhJGSJ3YfQyCQ/giphy.gif?cid=ecf05e47wostzt6s4srkkpaceedf6wii1o1x7cj6grv9fuzs&rid=giphy.gif");
+   background-image: url("https://media4.giphy.com/media/l378dCCXwlUff6Ccw/giphy.gif?cid=ecf05e474199hvyqjur5ot2q25nst0hqmwjokhnjm87cmnr6&rid=giphy.gif");
   background-size: cover;
   background-position: center center;
   background-repeat: repeat;
