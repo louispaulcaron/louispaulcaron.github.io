@@ -571,15 +571,15 @@ a {
     font-size: 4rem; }
     @media (max-width: 991.98px) {
       .cover-v1 .blog-heading {
-        font-size: 2rem; } }
+        font-size: 1rem; } }
   .cover-v1 .post-meta {
-    font-size: 18px; }
+    font-size: 1rem; }
   .cover-v1 .subheading {
     font-size: 28x;
     color: #fff; }
     @media (max-width: 991.98px) {
       .cover-v1 .subheading {
-        font-size: 22px; } }
+        font-size:1rem; } }
 
 .mouse-wrap {
   position: relative;
