@@ -560,7 +560,7 @@ a {
   .cover-v1 .heading {
     font-size: 3rem;
     font-weight: 900;
-    font-family: "Sarpanch", sans-serif;
+    font-family: sans-serif;
     color: black; }
     @media (max-width: 991.98px) {
       .cover-v1 .heading {
@@ -576,7 +576,7 @@ a {
     font-size: 1rem; }
   .cover-v1 .subheading {
     font-size: 28x;
-    color: #fff; }
+    color: white; }
     @media (max-width: 991.98px) {
       .cover-v1 .subheading {
         font-size:1rem; } }
