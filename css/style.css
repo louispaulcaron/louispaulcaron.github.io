@@ -568,7 +568,7 @@ a {
   .cover-v1 .blog-heading {
     font-weight: 900;
     color: #ff9cf8;
-    font-size: 4rem; }
+    font-size: 1rem; }
     @media (max-width: 991.98px) {
       .cover-v1 .blog-heading {
         font-size: 1rem; } }
