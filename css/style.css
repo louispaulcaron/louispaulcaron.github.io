@@ -575,8 +575,8 @@ a {
   .cover-v1 .post-meta {
     font-size: 1rem; }
   .cover-v1 .subheading {
-    font-size: 28x;
-    color: white; }
+    font-size: 24px;
+    color: black; }
     @media (max-width: 991.98px) {
       .cover-v1 .subheading {
         font-size:1rem; } }
@@ -1111,7 +1111,7 @@ figure.dotted-bg {
 
 .portfolio-single-inner .heading-portfolio-single-h2 {
   margin-bottom: 40px;
-  font-size: 50px;
+  font-size: 5px;
   font-weight: 900; }
   @media (max-width: 991.98px) {
     .portfolio-single-inner .heading-portfolio-single-h2 {
